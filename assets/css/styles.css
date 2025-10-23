@@ -1,0 +1,15 @@
+/* Custom styles on top of Bootstrap */
+:root { scroll-behavior: smooth; }
+.hero-img { max-width: 100%; height: auto; }
+.navbar .navbar-toggler { width: 48px; height: 40px; background: transparent; }
+.navbar .navbar-toggler .navbar-toggler-icon {
+  display: inline-block; width: 24px; height: 2px; background: #333;
+  box-shadow: 0 6px 0 0 #333, 0 -6px 0 0 #333;
+}
+#navMenu { transition: height .2s ease; }
+@media (max-width: 991.98px){
+  #navMenu.collapse { display: none; }
+  #navMenu.show { display: block; }
+  .navbar-nav .nav-link { padding: .5rem 0; }
+}
+footer a:hover { text-decoration: underline; }
