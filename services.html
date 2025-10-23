@@ -11,47 +11,41 @@
     <link href="assets/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="sticky-top shadow-sm bg-white">
-      <nav
-        class="container navbar navbar-expand-lg"
-        aria-label="Main navigation"
+    <!-- Header -->
+    <header class="py-3 border-bottom bg-white">
+      <div
+        class="container d-flex flex-wrap align-items-center justify-content-between gap-2"
       >
-        <a class="navbar-brand fw-bold" href="index.html">SM ASHIQURZAMMAN</a>
-        <button
-          class="navbar-toggler border-0"
-          type="button"
-          aria-label="Toggle navigation"
-          data-js="nav-toggle"
+        <a class="fw-bold text-decoration-none fs-5" href="index.html"
+          >SM ASHIQURZAMMAN</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+        <ul class="nav gap-2">
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark active" href="services.html"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-dark" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </header>
 
     <main>
       <section class="py-5 bg-light border-bottom">
         <div class="container">
           <h1 class="h2 mb-1">Services</h1>
-          <p class="text-secondary mb-0">What I can do for you</p>
+          <p class="section-intro mb-0">What I can do for you</p>
         </div>
       </section>
 
@@ -156,6 +150,7 @@
       </section>
     </main>
 
+    <!-- Footer -->
     <footer class="py-5 mt-5 bg-dark text-light">
       <div class="container">
         <div class="row g-4">
@@ -195,23 +190,23 @@
             <ul class="list-unstyled small mb-0">
               <li>
                 Email:
-                <a class="link-light" href="mailto:hello@example.com"
+                <a class="link-light" href="mailto:ashiqurzamman@gmail.com"
                   >ashiqurzamman@gmail.com</a
                 >
               </li>
               <li>
                 Phone:
-                <a class="link-light" href="tel:+10000000000">+88012345678</a>
+                <a class="link-light" href="tel:+88012345678">+88012345678</a>
               </li>
             </ul>
           </div>
         </div>
         <hr class="border-secondary my-4" />
         <p class="small mb-0">
-          &copy; <span id="year"></span> SM ASHIQURZAMMAN. All rights reserved.
+          &copy; <time datetime="2025">2025</time> SM ASHIQURZAMMAN. All rights
+          reserved.
         </p>
       </div>
     </footer>
-    <script src="assets/js/main.js" defer></script>
   </body>
 </html>
